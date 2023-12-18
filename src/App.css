@@ -1,0 +1,55 @@
+.section {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.section h1 {
+  text-shadow: 0.1em 0.1em #0002;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.section article {
+  width: 100%;
+  max-width: 25em;
+  background-color: #fff9;
+  padding: 1.5em;
+  row-gap: 3em;
+  border-radius: 1em;
+  box-shadow: 0.3em 0.3em 0.5em #0005;
+}
+.P__phrase {
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+}
+.P__author {
+  font-size: medium;
+  margin: 0.7em;
+}
+.P__author span {
+  font-weight: 600;
+}
+
+.section button {
+display: block;
+margin-top: 1em;
+margin-left: auto;
+margin-right: auto;
+font-size: 1.2rem;
+border: none;
+padding: 0.4em 1.5em;
+border-radius: 0.8em;
+background-color: mediumpurple;
+transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.section button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em rgb(151, 104, 238);
+}
