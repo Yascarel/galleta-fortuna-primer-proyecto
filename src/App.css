@@ -14,26 +14,41 @@
   font-weight: bold;
 }
 
+
+
 .section article {
-  width: 100%;
-  max-width: 25em;
-  background-color: #fff9;
   padding: 1.5em;
-  row-gap: 3em;
-  border-radius: 1em;
-  box-shadow: 0.3em 0.3em 0.5em #0005;
+  position: relative;
+}
+.section img {
+  width: 100%;
+  max-width: 30em;
 }
 .P__phrase {
   line-height: 1.5;
   text-align: center;
   font-weight: 400;
+  position: absolute;
+  top: 22%;
+  width: 85%;
+  left: 6.5%;
 }
 .P__author {
   font-size: medium;
   margin: 0.7em;
+  position: absolute;
+  top: 44%;
+  left: 10%;
 }
 .P__author span {
   font-weight: 600;
+}
+.P__coma {
+  color: #727171;
+  font-size: 6em;
+  position: absolute;
+  top: 16%;
+  left: 82%;
 }
 
 .section button {
@@ -42,14 +57,14 @@ margin-top: 1em;
 margin-left: auto;
 margin-right: auto;
 font-size: 1.2rem;
-border: none;
+border: 2px solid white;
 padding: 0.4em 1.5em;
 border-radius: 0.8em;
-background-color: mediumpurple;
+background-color: #c2e8ff;
 transition: transform 100ms ease, box-shadow 100ms ease;
 }
 
 .section button:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 1em rgb(151, 104, 238);
+  box-shadow: 0 0 1em #c2e8ff;
 }

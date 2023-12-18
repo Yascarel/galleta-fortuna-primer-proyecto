@@ -27,11 +27,16 @@ function App() {
     <>
     <section className='section' style={objStyle}>
     <h1>Galleta de la fortuna</h1>
+    
     <article>
+    <img src="/rectangle1.svg" alt="" />
     <Phrase phraseRandom={ramdon} /> 
+    
     <Button buttonChange={setRamdon}
       buttonChangeImage={setNumberr}/>
+      
     </article>
+    
     </section>
     </>
   )

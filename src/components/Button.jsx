@@ -10,7 +10,7 @@ const button = ({buttonChange, buttonChangeImage}) => {
   }
 
   return (
-    <button onClick={changePhrases}>change phrase</button>
+    <button onClick={changePhrases}>Otra frase</button>
   )
 }
 
